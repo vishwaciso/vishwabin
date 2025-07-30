@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VishwaBin DevOps Learning Hub</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      background: #f0f4f8;
+      margin: 0;
+      padding: 2rem;
+    }
+    h1 {
+      text-align: center;
+      color: #2b2d42;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1.5rem;
+      padding-top: 2rem;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    .card {
+      background: white;
+      border-radius: 1rem;
+      padding: 1.5rem;
+      text-align: center;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+      cursor: pointer;
+    }
+    .card:hover {
+      transform: scale(1.05);
+    }
+    .card-title {
+      font-size: 1.2rem;
+      color: #1e293b;
+      margin-top: 0.5rem;
+    }
+    .card-icon {
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+    }
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+  </style>
+</head>
+<body>
+  <h1>🌍 Vishwabin DevOps & Cloud Learning Hub</h1>
+  <div class="grid">
+    <a href="terraform/index.html"><div class="card"><div class="card-icon">🛠️</div><div class="card-title">Terraform</div></div></a>
+    <a href="kubernetes/index.html"><div class="card"><div class="card-icon">☸️</div><div class="card-title">Kubernetes</div></div></a>
+    <a href="ansible/index.html"><div class="card"><div class="card-icon">📦</div><div class="card-title">Ansible</div></div></a>
+    <a href="docker/index.html"><div class="card"><div class="card-icon">🐳</div><div class="card-title">Docker</div></div></a>
+    <a href="containers/index.html"><div class="card"><div class="card-icon">📁</div><div class="card-title">Containerized Apps</div></div></a>
+    <a href="security/index.html"><div class="card"><div class="card-icon">🔐</div><div class="card-title">Application Security</div></div></a>
+    <a href="aws/index.html"><div class="card"><div class="card-icon">☁️</div><div class="card-title">AWS</div></div></a>
+    <a href="azure/index.html"><div class="card"><div class="card-icon">🔷</div><div class="card-title">Azure</div></div></a>
+    <a href="gcp/index.html"><div class="card"><div class="card-icon">🔵</div><div class="card-title">GCP</div></div></a>
+    <a href="github-actions/index.html"><div class="card"><div class="card-icon">⚙️</div><div class="card-title">GitHub Actions</div></div></a>
+    <a href="notes/index.html"><div class="card"><div class="card-icon">📝</div><div class="card-title">General Notes</div></div></a>
+  </div>
+</body>
+</html>
+
