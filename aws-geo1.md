@@ -2,8 +2,6 @@
 
 ## Mastering AWS Geography — Regions, Zones & Edge Magic
 
-*(existing content omitted for brevity…)*
-
 ---
 
 ##  AWS Cloud: From Humble Beginnings to 2025 Dominance
